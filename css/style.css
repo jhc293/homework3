@@ -51,6 +51,11 @@ table{
     margin-right: auto;
 }
 
+tbody tr td:first-child{
+  text-align: center;
+  vertical-align: middle;
+}
+
 .colhead{
   background-color: #7e0830;
   color: #FFFFFF;
@@ -72,6 +77,7 @@ table{
 .rowhead{
   border: 2px solid black;
   border-bottom: 0;
+  vertical-align: middle;
 }
 
 tbody tr:last-child th{
@@ -89,15 +95,18 @@ td{
   border-top: 2px solid black;
   padding: 10px;
   text-align: center;
-  vertical-align:auto;
 }
 
 tr:nth-child(even){
   background-color: #D1D1D1;
+  text-align: center;
+  vertical-align: middle;
 }
 
 tr:nth-child(odd){
   background-color: transparent;
+  text-align: center;
+  vertical-align: middle;
 }
 
 tr:hover{
@@ -111,6 +120,11 @@ tr:hover{
 
 tbody tr th:last-child{
   border: 2px solid black;
+}
+
+thead{
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 thead tr:first-child th:first-child{
@@ -127,11 +141,12 @@ tbody tr:last-child td:last-child{
 }
 
 footer{
-  width:100%;
   background:#000000;
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
-  bottom: 0;
+  position: absolute;
+  width: 100%;
+  bottom: 0; 
 }
 
