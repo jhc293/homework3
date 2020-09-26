@@ -20,7 +20,7 @@ body{
 }
 
 h1{
-  color: #b21f50;
+  color: #c12258;
   font-size: 2em;
   text-align: center;
   line-height: 2;
@@ -36,7 +36,7 @@ p{
 
 a{
   font-size: 16px;
-  color: ##B21F50;
+  color: #b21f50;
   text-decoration: underline wavy;
 }
 
@@ -57,6 +57,7 @@ tbody tr td{
   min-width: 125px;
   padding: 10px;
   text-align: center;
+  vertical-align: middle;
   text-transform: uppercase;
   border-top: 2px solid black;
 }
@@ -87,7 +88,7 @@ tr:nth-child(odd){
 }
 
 tr:hover{
-  background-color: rgba(126, 8, 48, .25);
+  background-color: rgba(126, 8, 32, .25);
 }
 
 *:focus{
@@ -118,9 +119,7 @@ footer{
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
-  position: absolute;
+  position: fixed;
   width: 100%;
   bottom: 0;
 }
-
-
