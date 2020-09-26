@@ -11,7 +11,6 @@ Make sure to learn what the starter code does!!
 body{
   color: #000000;
   font-size: 16px;
-  margin: 1.2em;
   font-family: 'Andika', sans-serif;
   background-size: cover ;
   background-position: center;
@@ -20,12 +19,8 @@ body{
   background-repeat: no-repeat;
 }
 
-main{
-  margin-bottom: 100px;
-}
-
 h1{
-  color: #c12258;
+  color: #b21f50;
   font-size: 2em;
   text-align: center;
   line-height: 2;
@@ -41,14 +36,15 @@ p{
 
 a{
   font-size: 16px;
-  color: #c12258;
-  text-decoration: underline wavy 
+  color: ##B21F50;
+  text-decoration: underline wavy;
 }
 
 table{
-    border: 2px#000000;
-    margin-left:auto;
-    margin-right: auto;
+  border: 2px solid #000000;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
 }
 tbody tr td{
   text-align: center;
@@ -56,38 +52,20 @@ tbody tr td{
 }
 
 .colhead{
-  background-color: #7e0830;
+  background-color: #7e0820;
   color: #FFFFFF;
-  width: 125px;
+  min-width: 125px;
   padding: 10px;
   text-align: center;
   text-transform: uppercase;
   border-top: 2px solid black;
 }
 
-.colhead:first-child{
-  border-left: 2px solid black;
-}
-
-.colhead:last-child{
-  border-right: 2px solid black;
-}
-
 .rowhead{
   border: 2px solid black;
+  border-left: 0;
   border-bottom: 0;
   vertical-align: middle;
-}
-
-tbody tr:last-child th{
-  border: 2px solid black;
-}
-
-tbody tr td:last-child{
-  border-right: 2px solid black;
-}
-tbody tr:last-child td{
-  border-bottom: 2px solid black;
 }
 
 td{
@@ -117,10 +95,6 @@ tr:hover{
   border-color: #417243;
 }
 
-tbody tr th:last-child{
-  border: 2px solid black;
-}
-
 thead{
   overflow: hidden;
   white-space: nowrap;
@@ -134,7 +108,7 @@ thead tr:first-child th:last-child{
 }
 tbody tr:last-child th:first-child{
   border-bottom-left-radius: 10px;
-} 
+}
 tbody tr:last-child td:last-child{
   border-bottom-right-radius: 10px;
 }
@@ -146,6 +120,7 @@ footer{
   min-height: 75px;
   position: absolute;
   width: 100%;
-  bottom: 0; 
+  bottom: 0;
 }
+
 
